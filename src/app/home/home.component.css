@@ -1,0 +1,9 @@
+.card {
+    box-shadow: 0 0 15px;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.trending {
+    display: inline;
+}

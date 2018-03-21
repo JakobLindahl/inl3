@@ -1,0 +1,44 @@
+.footer{
+    position: fixed;
+    height: 11%;
+    min-height: 50px;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 15px;
+}
+
+.footer-gradiant{
+    position: fixed;
+    width: 100%;
+    bottom: 11%;
+    height: 2px;
+    background: linear-gradient(rgba(108,117,125,1), rgba(248,249,250,1));    
+}
+
+.navbar {
+    box-shadow: 0 0 15px;
+}
+
+.nav-gradiant {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(rgba(248,249,250,1),rgba(108,117,125,1));    
+}
+
+.header-gradiant {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(rgba(52,58,64,1),rgba(248,249,250,1)); 
+}
+
+.container{
+    height: 71%;
+}
+
+.row {
+    height: 100%;
+}
+
+.col {
+    height: 100%;
+}
