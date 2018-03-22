@@ -1,12 +1,18 @@
-<section class="card">
-  <header class="card-header">
-    <h2>
-      Trending giphs
-    </h2>
-  </header>
-  <div class="card-body mx-auto">
-  <figure class="trending" *ngFor="let imageSource of findAll()">
-    <img class="my-1 img-fluid" src= {{imageSource.image}} alt="Image not found" width="200px"> 
-  </figure>
+<div class="container py-5">
+  <div class="row">
+    <div class="col">
+      <section class="card">
+        <header class="card-header">
+          <h2>
+            Trending giphs
+          </h2>
+        </header>
+        <div class="card-body mx-auto">
+          <figure class="trending" *ngFor="let imageSource of findAll()">
+            <img class="my-1 img-fluid" src= {{imageSource.image}} alt="Image not found" width="200px">
+          </figure>
+        </div>
+      </section>
+    </div>
+  </div>
 </div>
-</section>
